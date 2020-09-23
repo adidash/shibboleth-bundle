@@ -1,0 +1,21 @@
+{
+    "name": "ggiacome/shibboleth-bundle",
+    "description": "Fork from Unicecil bundle authentication for Symfony 4+ ",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "giak",
+            "email": "guillaume.giacomel@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+  "require" : {
+    "php": ">=7.3",
+    "symfony/framework-bundle": "~4.0|~5.0",
+    "symfony/security-guard": "~4.0|~5.0"
+  },
+  "autoload": {
+    "psr-4": { "Giak\\ShibbolethBundle\\": "" }
+  }
+}

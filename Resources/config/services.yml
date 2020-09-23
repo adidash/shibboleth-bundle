@@ -1,0 +1,8 @@
+services:
+  Giak.shibboleth_authenticator:
+    class: Giak\ShibbolethBundle\Security\ShibbolethGuardAuthenticator
+    arguments: ['%giak_shibboleth%', "@router", "@security.token_storage"]
+
+  Giak.shibboleth_logout_event:
+    class: Giak\ShibbolethBundle\Event\LogoutSuccessHandler
+    arguments: ['%giak_shibboleth%', "@router"]
