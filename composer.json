@@ -1,5 +1,5 @@
 {
-    "name": "ggiacome/shibboleth-bundle",
+    "name": "giak/shibboleth-bundle",
     "description": "Fork from Unicecil bundle authentication for Symfony 4+ ",
     "type": "symfony-bundle",
     "license": "MIT",
